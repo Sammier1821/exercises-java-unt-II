@@ -1,3 +1,8 @@
+/**
+ * App to enter the time. Then, sum it one second.
+ * @author Gian Franco Samana Ramirez
+ */
+
 package Semana02.presentacion;
 
 import java.util.Scanner;
@@ -32,6 +37,7 @@ public class Ejercicio01 {
       System.out.print(h + ":" + m + ":" + s);
     System.out.print("\n");
   }
+
   public static void main(String[] args) {
     // Declarations
     int hour, minute, second;
@@ -71,6 +77,6 @@ public class Ejercicio01 {
       // OUTPUT
       System.out.print("\nTime plus one second is: ");
       showTime(hour, minute, second);
-    } while (control("\nDo you want to restart the program?"));
+    } while (control("\nDo you want to restart the app?"));
   }
 }
